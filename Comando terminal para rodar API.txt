@@ -1,0 +1,12 @@
+Terminal -> Novo Terminal
+
+(no terminal execute o comando): npm run start
+|-----MÉTODOS PARA RODAR A API-----|
+POST(Save Products): localhost:1000/api/products
+GET(Find Products): localhost:1000/api/products?page=(número da página)
+Obs: Para usar Query params é só utilizar &(KEY)=(VALUE). as KEYS disponíveis são: order, filter, category, max e min.
+GET(Find Products By id): localhost:1000/api/products/(id)
+PUT(Update Products): localhost:1000/api/products/(id)
+DELETE(Delete Products By Id): localhost:1000/api/products/(id)
+
+Aproveite :)
